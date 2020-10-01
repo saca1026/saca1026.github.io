@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Interest</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+
+	<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+		<div class="navbar-nav mr-auto">
+			<div class="nav-item">
+				<a class="nav-link" href="mypage_bootstrap.html">Home</a>
+			</div>
+			<div class="nav-item">
+				<a class="nav-link" href="projects.html">Projects</a>
+			</div>
+		</div>
+		<span class="navbar-text">
+			<a href="https://github.com/saca1026" target="_blank"><img src="git.png" height="30" width="30" class="rounded-circle"></a>
+		</span>
+	</nav>
+
+	<div class="container mt-5">
+		<h2>Add New Interest</h2>
+		<form method="GET" action="mypage_bootstrap.html">
+
+			<div class="form-group">
+				<label for="name">Interest Name</label>
+				<input type="text" class="form-control" id="name" placeholder="Name">
+			</div>
+			<div class="form-group">
+				<label for="about">Text About Interest</label>
+				<textarea class="form-control" id="about" rows="4"></textarea>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<div class="form-group">
+					    <label for="image">Upload Image:</label>
+					    <input type="file" class="form-control-file" id="image">
+					</div>
+				</div>
+				<div class="col">
+					<label for="select">Select Number of Tweets to Display:</label>
+					<select class="form-control" id="select">
+					  <option>1</option>
+					  <option>2</option>
+					  <option>3</option>
+					  <option>4</option>
+					  <option>5</option>
+					</select>
+				</div>
+			</div>
+
+			<p>On a scale of 1-5, how interested in this are you?</p>
+			<div class="form-check form-check-inline">
+			  <input class="form-check-input" type="radio" name="rating" id="rating1" value="1">
+			  <label class="form-check-label" for="rating1">1</label>
+			</div>
+			<div class="form-check form-check-inline">
+			  <input class="form-check-input" type="radio" name="rating" id="rating1" value="2">
+			  <label class="form-check-label" for="rating2">2</label>
+			</div>
+			<div class="form-check form-check-inline">
+			  <input class="form-check-input" type="radio" name="rating" id="rating1" value="3">
+			  <label class="form-check-label" for="rating3">3</label>
+			</div>
+			<div class="form-check form-check-inline">
+			  <input class="form-check-input" type="radio" name="rating" id="rating4" value="4">
+			  <label class="form-check-label" for="rating4">4</label>
+			</div>
+			<div class="form-check form-check-inline">
+			  <input class="form-check-input" type="radio" name="rating" id="rating5" value="5">
+			  <label class="form-check-label" for="rating5">5</label>
+			</div><br><br>
+
+			<p>Login To Finish Submitting</p>
+			<div class="row">
+			    <div class="col">
+			      <input type="text" class="form-control" placeholder="Username">
+			    </div>
+			    <div class="col">
+			      <input type="password" class="form-control" placeholder="Password">
+			    </div>
+			</div><br>
+			
+			<input class="btn btn-secondary" type="submit" value="Submit">
+
+		</form>
+	</div>
+	
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>
